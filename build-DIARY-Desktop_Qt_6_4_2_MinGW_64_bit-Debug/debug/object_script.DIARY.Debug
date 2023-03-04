@@ -1,0 +1,10 @@
+debug/login.o
+debug/main.o
+debug/home.o
+debug/signup.o
+debug/thediary.o
+debug/qrc_PICS.o
+debug/moc_home.o
+debug/moc_login.o
+debug/moc_signup.o
+debug/moc_thediary.o

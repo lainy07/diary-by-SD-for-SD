@@ -115,10 +115,10 @@ public:
 "font: 700 9pt \"Segoe UI\";"));
         label_5 = new QLabel(Signup);
         label_5->setObjectName("label_5");
-        label_5->setGeometry(QRect(250, 40, 291, 51));
+        label_5->setGeometry(QRect(230, 50, 341, 51));
         QFont font1;
         font1.setFamilies({QString::fromUtf8("Sans Serif Collection")});
-        font1.setPointSize(20);
+        font1.setPointSize(22);
         label_5->setFont(font1);
         label_5->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
         label_8 = new QLabel(Signup);

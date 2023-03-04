@@ -12,140 +12,179 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QComboBox>
+#include <QtWidgets/QDateEdit>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSpinBox>
-#include <QtWidgets/QVBoxLayout>
-#include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
 
 class Ui_Signup
 {
 public:
-    QWidget *widget;
-    QVBoxLayout *verticalLayout;
-    QLabel *label;
-    QLabel *label_2;
     QLineEdit *lineEdit;
     QLineEdit *lineEdit_2;
-    QLabel *label_3;
     QSpinBox *spinBox;
-    QLabel *label_4;
-    QLabel *label_7;
     QPushButton *pushButton;
-    QLabel *label_5;
     QPushButton *pushButton_2;
     QLineEdit *username;
     QLineEdit *btnPassword;
     QComboBox *comboBox;
-    QLabel *label_6;
+    QLabel *label_5;
+    QLabel *label_8;
+    QLabel *label_9;
+    QLabel *label_10;
+    QLabel *label_11;
+    QLabel *label_12;
+    QLabel *label_13;
+    QDateEdit *dateEdit;
+    QLabel *label_14;
 
     void setupUi(QDialog *Signup)
     {
         if (Signup->objectName().isEmpty())
             Signup->setObjectName("Signup");
-        Signup->resize(445, 404);
+        Signup->resize(750, 480);
         Signup->setStyleSheet(QString::fromUtf8("BACkGROUND-COLOR:rgb(232, 220, 184)\n"
 ""));
-        widget = new QWidget(Signup);
-        widget->setObjectName("widget");
-        widget->setGeometry(QRect(20, 100, 93, 70));
-        verticalLayout = new QVBoxLayout(widget);
-        verticalLayout->setObjectName("verticalLayout");
-        verticalLayout->setContentsMargins(0, 0, 0, 0);
-        label = new QLabel(widget);
-        label->setObjectName("label");
-        label->setStyleSheet(QString::fromUtf8("COLOR:rgb(0, 0, 0);\n"
-"font: 700 9pt \"SansSerif\";"));
-
-        verticalLayout->addWidget(label);
-
-        label_2 = new QLabel(widget);
-        label_2->setObjectName("label_2");
-        label_2->setStyleSheet(QString::fromUtf8("COLOR:rgb(0, 0, 0);\n"
-"font: 700 9pt \"SansSerif\";"));
-
-        verticalLayout->addWidget(label_2);
-
         lineEdit = new QLineEdit(Signup);
         lineEdit->setObjectName("lineEdit");
-        lineEdit->setGeometry(QRect(120, 100, 311, 28));
-        lineEdit->setStyleSheet(QString::fromUtf8("background-color: #B07C4F;\n"
-"font: 10pt \"SansSerif\";"));
+        lineEdit->setGeometry(QRect(141, 140, 230, 35));
+        lineEdit->setStyleSheet(QString::fromUtf8("\n"
+"background-color: rgb(255, 255, 255);\n"
+"font: 10pt \"SansSerif\";\n"
+"color: rgb(0, 0, 0);"));
         lineEdit_2 = new QLineEdit(Signup);
         lineEdit_2->setObjectName("lineEdit_2");
-        lineEdit_2->setGeometry(QRect(120, 140, 311, 28));
-        lineEdit_2->setStyleSheet(QString::fromUtf8("background-color: #B07C4F;\342\200\251color: rgb(255, 255, 255);\342\200\251font: 10pt \"SansSerif\";"));
-        label_3 = new QLabel(Signup);
-        label_3->setObjectName("label_3");
-        label_3->setGeometry(QRect(90, 190, 33, 18));
-        label_3->setStyleSheet(QString::fromUtf8("COLOR:rgb(0, 0, 0);\n"
-"font: 700 10pt \"SansSerif\";"));
+        lineEdit_2->setGeometry(QRect(140, 192, 230, 35));
+        lineEdit_2->setStyleSheet(QString::fromUtf8("\n"
+"background-color: rgb(255, 255, 255);\n"
+"font: 10pt \"SansSerif\";\n"
+"color: rgb(0, 0, 0);"));
         spinBox = new QSpinBox(Signup);
         spinBox->setObjectName("spinBox");
-        spinBox->setGeometry(QRect(130, 180, 61, 41));
+        spinBox->setGeometry(QRect(520, 193, 140, 35));
         spinBox->setStyleSheet(QString::fromUtf8("background-color:rgb(255, 255, 255);\n"
 "COLOR: BLACK;\n"
-"font:700 10pt \"SansSerif\";"));
-        label_4 = new QLabel(Signup);
-        label_4->setObjectName("label_4");
-        label_4->setGeometry(QRect(200, 190, 41, 18));
-        label_4->setStyleSheet(QString::fromUtf8("COLOR:rgb(0, 0, 0);\n"
-"font: 700 10pt \"SansSerif\";"));
-        label_7 = new QLabel(Signup);
-        label_7->setObjectName("label_7");
-        label_7->setGeometry(QRect(21, 295, 98, 20));
-        label_7->setStyleSheet(QString::fromUtf8("COLOR:rgb(0, 0, 0);\n"
-"font: 700 10pt \"SansSerif\";"));
+"font: 700 9pt \"Segoe UI\";"));
         pushButton = new QPushButton(Signup);
         pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(200, 340, 231, 51));
+        pushButton->setGeometry(QRect(409, 390, 230, 51));
         pushButton->setStyleSheet(QString::fromUtf8("background-color: #B07C4F;\n"
 "font: 900 12pt \"Segoe UI Black\";\n"
 "color: rgb(255, 255, 255);\n"
 "border-radius: 20px;"));
-        label_5 = new QLabel(Signup);
-        label_5->setObjectName("label_5");
-        label_5->setGeometry(QRect(30, 0, 381, 81));
-        label_5->setStyleSheet(QString::fromUtf8("\n"
-"font: 48pt \"Romantic\";\n"
-"color: rgb(0, 0, 0);\n"
-"background-color: rgba(255, 255, 255, 10);"));
-        label_5->setAlignment(Qt::AlignCenter);
         pushButton_2 = new QPushButton(Signup);
         pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(50, 340, 131, 51));
+        pushButton_2->setGeometry(QRect(140, 390, 230, 51));
         pushButton_2->setStyleSheet(QString::fromUtf8("background-color: #B07C4F;\n"
 "font: 900 12pt \"Segoe UI Black\";\n"
 "color: rgb(255, 255, 255);\n"
 "border-radius: 20px;"));
         username = new QLineEdit(Signup);
         username->setObjectName("username");
-        username->setGeometry(QRect(120, 250, 311, 28));
-        username->setStyleSheet(QString::fromUtf8("background-color: #B07C4F;\342\200\251color: rgb(255, 255, 255);\342\200\251font: 10pt \"SansSerif\";"));
+        username->setGeometry(QRect(141, 250, 230, 35));
+        username->setStyleSheet(QString::fromUtf8("\n"
+"background-color: rgb(255, 255, 255);\n"
+"font: 10pt \"SansSerif\";\n"
+"color: rgb(0, 0, 0);"));
         btnPassword = new QLineEdit(Signup);
         btnPassword->setObjectName("btnPassword");
-        btnPassword->setGeometry(QRect(120, 290, 311, 28));
-        btnPassword->setStyleSheet(QString::fromUtf8("background-color: #B07C4F;\342\200\251color: rgb(255, 255, 255);\342\200\251font: 10pt \"SansSerif\";"));
+        btnPassword->setGeometry(QRect(140, 302, 230, 35));
+        btnPassword->setStyleSheet(QString::fromUtf8("\n"
+"background-color: rgb(255, 255, 255);\n"
+"font: 10pt \"SansSerif\";\n"
+"color: rgb(0, 0, 0);"));
         comboBox = new QComboBox(Signup);
         comboBox->addItem(QString());
         comboBox->addItem(QString());
         comboBox->addItem(QString());
         comboBox->addItem(QString());
         comboBox->setObjectName("comboBox");
-        comboBox->setGeometry(QRect(240, 180, 191, 41));
+        comboBox->setGeometry(QRect(520, 251, 140, 35));
+        QFont font;
+        font.setFamilies({QString::fromUtf8("Segoe UI")});
+        font.setPointSize(9);
+        font.setBold(true);
+        font.setItalic(false);
+        comboBox->setFont(font);
         comboBox->setStyleSheet(QString::fromUtf8("background-color:rgb(255, 255, 255);\n"
 "COLOR: BLACK;\n"
-"font: 10pt \"SansSerif\";\n"
-"font: 700 10pt \"SansSerif\";"));
-        label_6 = new QLabel(Signup);
-        label_6->setObjectName("label_6");
-        label_6->setGeometry(QRect(21, 251, 95, 20));
-        label_6->setStyleSheet(QString::fromUtf8("COLOR:rgb(0, 0, 0);\n"
-"font: 700 10pt \"SansSerif\";"));
+"font: 700 9pt \"Segoe UI\";"));
+        label_5 = new QLabel(Signup);
+        label_5->setObjectName("label_5");
+        label_5->setGeometry(QRect(250, 40, 291, 51));
+        QFont font1;
+        font1.setFamilies({QString::fromUtf8("Sans Serif Collection")});
+        font1.setPointSize(20);
+        label_5->setFont(font1);
+        label_5->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
+        label_8 = new QLabel(Signup);
+        label_8->setObjectName("label_8");
+        label_8->setGeometry(QRect(41, 289, 101, 51));
+        QFont font2;
+        font2.setFamilies({QString::fromUtf8("Segoe UI Variable Text")});
+        font2.setPointSize(9);
+        font2.setBold(true);
+        label_8->setFont(font2);
+        label_8->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
+        label_9 = new QLabel(Signup);
+        label_9->setObjectName("label_9");
+        label_9->setGeometry(QRect(41, 130, 101, 51));
+        label_9->setFont(font2);
+        label_9->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
+        label_10 = new QLabel(Signup);
+        label_10->setObjectName("label_10");
+        label_10->setGeometry(QRect(41, 181, 101, 60));
+        label_10->setFont(font2);
+        label_10->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
+        label_11 = new QLabel(Signup);
+        label_11->setObjectName("label_11");
+        label_11->setGeometry(QRect(38, 239, 101, 51));
+        label_11->setFont(font2);
+        label_11->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
+        label_12 = new QLabel(Signup);
+        label_12->setObjectName("label_12");
+        label_12->setGeometry(QRect(460, 188, 40, 50));
+        label_12->setFont(font2);
+        label_12->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
+        label_13 = new QLabel(Signup);
+        label_13->setObjectName("label_13");
+        label_13->setGeometry(QRect(461, 241, 31, 51));
+        label_13->setFont(font2);
+        label_13->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
+        dateEdit = new QDateEdit(Signup);
+        dateEdit->setObjectName("dateEdit");
+        dateEdit->setGeometry(QRect(520, 140, 140, 35));
+        dateEdit->setFont(font);
+        dateEdit->setAcceptDrops(false);
+        dateEdit->setStyleSheet(QString::fromUtf8("background-color:rgb(255, 255, 255);\n"
+"COLOR: BLACK;\n"
+"font: 700 9pt \"Segoe UI\";"));
+        label_14 = new QLabel(Signup);
+        label_14->setObjectName("label_14");
+        label_14->setGeometry(QRect(416, 130, 91, 51));
+        label_14->setFont(font2);
+        label_14->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);"));
+        label_14->raise();
+        label_12->raise();
+        label_13->raise();
+        label_8->raise();
+        label_11->raise();
+        label_9->raise();
+        label_10->raise();
+        lineEdit->raise();
+        lineEdit_2->raise();
+        spinBox->raise();
+        pushButton->raise();
+        pushButton_2->raise();
+        username->raise();
+        btnPassword->raise();
+        comboBox->raise();
+        label_5->raise();
+        dateEdit->raise();
 
         retranslateUi(Signup);
 
@@ -155,13 +194,7 @@ public:
     void retranslateUi(QDialog *Signup)
     {
         Signup->setWindowTitle(QCoreApplication::translate("Signup", "Dialog", nullptr));
-        label->setText(QCoreApplication::translate("Signup", "FIRST NAME", nullptr));
-        label_2->setText(QCoreApplication::translate("Signup", "LAST NAME", nullptr));
-        label_3->setText(QCoreApplication::translate("Signup", "AGE", nullptr));
-        label_4->setText(QCoreApplication::translate("Signup", "SEX", nullptr));
-        label_7->setText(QCoreApplication::translate("Signup", "PASSWORD", nullptr));
         pushButton->setText(QCoreApplication::translate("Signup", "READY TO WRITE?", nullptr));
-        label_5->setText(QCoreApplication::translate("Signup", "OverWrite", nullptr));
         pushButton_2->setText(QCoreApplication::translate("Signup", "BACK", nullptr));
         btnPassword->setText(QString());
         comboBox->setItemText(0, QCoreApplication::translate("Signup", "FEMALE", nullptr));
@@ -169,7 +202,14 @@ public:
         comboBox->setItemText(2, QCoreApplication::translate("Signup", "NON-BINARY", nullptr));
         comboBox->setItemText(3, QCoreApplication::translate("Signup", "PREFER NOT TO SAY", nullptr));
 
-        label_6->setText(QCoreApplication::translate("Signup", "USERNAME", nullptr));
+        label_5->setText(QCoreApplication::translate("Signup", "Create An Account", nullptr));
+        label_8->setText(QCoreApplication::translate("Signup", "PASSWORD:", nullptr));
+        label_9->setText(QCoreApplication::translate("Signup", "FIRST NAME:", nullptr));
+        label_10->setText(QCoreApplication::translate("Signup", "LAST NAME:", nullptr));
+        label_11->setText(QCoreApplication::translate("Signup", "USER NAME:", nullptr));
+        label_12->setText(QCoreApplication::translate("Signup", "AGE:", nullptr));
+        label_13->setText(QCoreApplication::translate("Signup", "SEX:", nullptr));
+        label_14->setText(QCoreApplication::translate("Signup", "BIRTHDAY:", nullptr));
     } // retranslateUi
 
 };

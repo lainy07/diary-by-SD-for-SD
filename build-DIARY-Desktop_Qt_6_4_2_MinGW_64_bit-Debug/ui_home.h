@@ -36,7 +36,7 @@ public:
     {
         if (HOME->objectName().isEmpty())
             HOME->setObjectName("HOME");
-        HOME->resize(744, 479);
+        HOME->resize(750, 480);
         HOME->setStyleSheet(QString::fromUtf8("background-color: rgb(232, 220, 184);"));
         centralwidget = new QWidget(HOME);
         centralwidget->setObjectName("centralwidget");
@@ -80,7 +80,7 @@ public:
         HOME->setCentralWidget(centralwidget);
         menubar = new QMenuBar(HOME);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 744, 25));
+        menubar->setGeometry(QRect(0, 0, 750, 25));
         HOME->setMenuBar(menubar);
         statusbar = new QStatusBar(HOME);
         statusbar->setObjectName("statusbar");

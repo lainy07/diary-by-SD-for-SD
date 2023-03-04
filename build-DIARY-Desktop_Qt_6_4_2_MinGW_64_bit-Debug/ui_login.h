@@ -33,47 +33,49 @@ public:
     {
         if (Login->objectName().isEmpty())
             Login->setObjectName("Login");
-        Login->resize(355, 330);
+        Login->resize(750, 480);
         Login->setStyleSheet(QString::fromUtf8("BACkGROUND-COLOR: rgb(232, 220, 184);\n"
 "border-radius: 12px;\n"
 ""));
         label = new QLabel(Login);
         label->setObjectName("label");
-        label->setGeometry(QRect(120, 80, 161, 31));
+        label->setGeometry(QRect(310, 151, 161, 31));
         label->setStyleSheet(QString::fromUtf8("COLOR:rgb(0, 0, 0);\n"
 "font: 700 14pt \"SansSerif\";"));
         pushButton = new QPushButton(Login);
         pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(180, 260, 131, 51));
+        pushButton->setGeometry(QRect(380, 390, 230, 51));
         pushButton->setStyleSheet(QString::fromUtf8("background-color: #B07C4F;\n"
 "font: 900 12pt \"Segoe UI Black\";\n"
 "color: rgb(255, 255, 255);\n"
 "border-radius: 20px;"));
         label_2 = new QLabel(Login);
         label_2->setObjectName("label_2");
-        label_2->setGeometry(QRect(120, 170, 161, 31));
+        label_2->setGeometry(QRect(310, 251, 161, 31));
         label_2->setStyleSheet(QString::fromUtf8("COLOR:rgb(0, 0, 0);\n"
 "font: 700 14pt \"SansSerif\";"));
         pushButton_2 = new QPushButton(Login);
         pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(40, 260, 131, 51));
+        pushButton_2->setGeometry(QRect(120, 390, 230, 51));
         pushButton_2->setStyleSheet(QString::fromUtf8("background-color: #B07C4F;\n"
 "font: 900 12pt \"Segoe UI Black\";\n"
 "color: rgb(255, 255, 255);\n"
 "border-radius: 20px;"));
         username = new QLineEdit(Login);
         username->setObjectName("username");
-        username->setGeometry(QRect(30, 120, 301, 28));
-        username->setStyleSheet(QString::fromUtf8("background-color: #B07C4F;\n"
+        username->setGeometry(QRect(220, 191, 301, 40));
+        username->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);\n"
+"color: rgb(255, 255, 255);\n"
 "font: 10pt \"SansSerif\";"));
         password = new QLineEdit(Login);
         password->setObjectName("password");
-        password->setGeometry(QRect(30, 210, 301, 28));
-        password->setStyleSheet(QString::fromUtf8("background-color: #B07C4F;\n"
+        password->setGeometry(QRect(220, 291, 301, 40));
+        password->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);\n"
+"color: rgb(255, 255, 255);\n"
 "font: 10pt \"SansSerif\";"));
         label_5 = new QLabel(Login);
         label_5->setObjectName("label_5");
-        label_5->setGeometry(QRect(40, -10, 271, 91));
+        label_5->setGeometry(QRect(230, 30, 271, 91));
         label_5->setStyleSheet(QString::fromUtf8("\n"
 "font: 48pt \"Romantic\";\n"
 "color: rgb(0, 0, 0);\n"

@@ -42,7 +42,7 @@ public:
         centralwidget->setObjectName("centralwidget");
         label = new QLabel(centralwidget);
         label->setObjectName("label");
-        label->setGeometry(QRect(90, 100, 571, 131));
+        label->setGeometry(QRect(100, 120, 571, 131));
         label->setStyleSheet(QString::fromUtf8("\n"
 "font: 72pt \"Romantic\";\n"
 "color: rgb(0, 0, 0);\n"
@@ -50,21 +50,21 @@ public:
         label->setAlignment(Qt::AlignCenter);
         label_2 = new QLabel(centralwidget);
         label_2->setObjectName("label_2");
-        label_2->setGeometry(QRect(230, 80, 291, 31));
+        label_2->setGeometry(QRect(240, 80, 291, 31));
         label_2->setStyleSheet(QString::fromUtf8("font: 18pt \"Swis721 BlkEx BT\";\n"
 "color: rgb(0, 0, 0);\n"
 "background-color: rgba(255, 255, 255, 10);"));
         label_2->setAlignment(Qt::AlignCenter);
         pushButton = new QPushButton(centralwidget);
         pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(250, 240, 261, 51));
+        pushButton->setGeometry(QRect(260, 260, 261, 51));
         pushButton->setStyleSheet(QString::fromUtf8("background-color: #B07C4F;\n"
 "font: 900 16pt \"Segoe UI Black\";\n"
 "color: rgb(255, 255, 255);\n"
 "border-radius: 20px;"));
         pushButton_2 = new QPushButton(centralwidget);
         pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(250, 300, 261, 51));
+        pushButton_2->setGeometry(QRect(260, 320, 261, 51));
         pushButton_2->setStyleSheet(QString::fromUtf8("background-color: #B07C4F;\n"
 "font: 900 16pt \"Segoe UI Black\";\n"
 "color: rgb(255, 255, 255);\n"

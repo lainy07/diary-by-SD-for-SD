@@ -123,7 +123,7 @@ font: 10pt &quot;SansSerif&quot;;</string>
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>240</x>
      <y>50</y>
      <width>271</width>
      <height>91</height>

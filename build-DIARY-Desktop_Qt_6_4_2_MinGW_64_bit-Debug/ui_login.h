@@ -75,7 +75,7 @@ public:
 "font: 10pt \"SansSerif\";"));
         label_5 = new QLabel(Login);
         label_5->setObjectName("label_5");
-        label_5->setGeometry(QRect(80, 50, 271, 91));
+        label_5->setGeometry(QRect(240, 50, 271, 91));
         label_5->setStyleSheet(QString::fromUtf8("\n"
 "font: 48pt \"Romantic\";\n"
 "color: rgb(0, 0, 0);\n"

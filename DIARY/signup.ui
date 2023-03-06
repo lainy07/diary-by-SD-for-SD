@@ -396,7 +396,6 @@ font: 700 9pt &quot;Segoe UI&quot;;</string>
   <zorder>label_11</zorder>
   <zorder>label_9</zorder>
   <zorder>label_10</zorder>
-  <zorder>layoutWidget</zorder>
   <zorder>lineEdit</zorder>
   <zorder>lineEdit_2</zorder>
   <zorder>spinBox</zorder>

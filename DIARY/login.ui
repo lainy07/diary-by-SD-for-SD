@@ -6,23 +6,23 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>750</width>
-    <height>480</height>
+    <width>1200</width>
+    <height>650</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">BACkGROUND-COLOR: rgb(232, 220, 184);
+   <string notr="true">background-color: rgb(255, 255, 255);
 border-radius: 12px;
 </string>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>310</x>
-     <y>151</y>
+     <x>800</x>
+     <y>231</y>
      <width>161</width>
      <height>31</height>
     </rect>
@@ -38,27 +38,31 @@ font: 700 14pt &quot;SansSerif&quot;;</string>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>380</x>
-     <y>390</y>
-     <width>230</width>
+     <x>1088</x>
+     <y>560</y>
+     <width>61</width>
      <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #B07C4F;
+    <string notr="true">background-color: rgb(207, 218, 200);
 font: 900 12pt &quot;Segoe UI Black&quot;;
 color: rgb(255, 255, 255);
 border-radius: 20px;</string>
    </property>
    <property name="text">
-    <string>READY!</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="PICS.qrc">
+     <normaloff>:/backgrounds/right-arrow.png</normaloff>:/backgrounds/right-arrow.png</iconset>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>310</x>
-     <y>251</y>
+     <x>800</x>
+     <y>360</y>
      <width>161</width>
      <height>31</height>
     </rect>
@@ -74,64 +78,71 @@ font: 700 14pt &quot;SansSerif&quot;;</string>
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>390</y>
-     <width>230</width>
+     <x>10</x>
+     <y>560</y>
+     <width>61</width>
      <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #B07C4F;
+    <string notr="true">background-color: #CFDAC8;
 font: 900 12pt &quot;Segoe UI Black&quot;;
 color: rgb(255, 255, 255);
 border-radius: 20px;</string>
    </property>
    <property name="text">
-    <string>BACK</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="PICS.qrc">
+     <normaloff>:/backgrounds/left-arrow.png</normaloff>:/backgrounds/left-arrow.png</iconset>
    </property>
   </widget>
   <widget class="QLineEdit" name="username">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>191</y>
+     <x>800</x>
+     <y>270</y>
      <width>301</width>
-     <height>40</height>
+     <height>55</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 255, 255);
-color: rgb(255, 255, 255);
+    <string notr="true">background-color: rgb(207, 218, 200);
+color: rgb(0, 0, 0);
 font: 10pt &quot;SansSerif&quot;;</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="password">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>291</y>
+     <x>800</x>
+     <y>400</y>
      <width>301</width>
-     <height>40</height>
+     <height>55</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 255, 255);
-color: rgb(255, 255, 255);
+    <string notr="true">background-color: rgb(207, 218, 200);
+color: rgb(0, 0, 0);
 font: 10pt &quot;SansSerif&quot;;</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
    </property>
   </widget>
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>240</x>
-     <y>50</y>
-     <width>271</width>
+     <x>770</x>
+     <y>100</y>
+     <width>351</width>
      <height>91</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">
-font: 48pt &quot;Romantic&quot;;
+font: 55pt &quot;Romantic&quot;;
 color: rgb(0, 0, 0);
 background-color: rgba(255, 255, 255, 10);</string>
    </property>
@@ -142,8 +153,108 @@ background-color: rgba(255, 255, 255, 10);</string>
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>-10</y>
+     <width>16</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color: rgb(94, 69, 75);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>220</y>
+     <width>511</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+font: 80pt &quot;Romantic&quot;;
+color: rgb(0, 0, 0);
+background-color: rgba(255, 255, 255, 10);</string>
+   </property>
+   <property name="text">
+    <string>teaspill.</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>546</y>
+     <width>561</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+font: 20pt &quot;Romantic&quot;;
+color: rgb(0, 0, 0);
+background-color: rgba(255, 255, 255, 10);</string>
+   </property>
+   <property name="text">
+    <string>Let's keep it between us.</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>151</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/backgrounds/icons2/tea.png);
+font: 80pt &quot;Romantic&quot;;
+color: rgb(0, 0, 0);
+background-color: rgba(255, 255, 255, 10);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="PICS.qrc">:/backgrounds/icons2/tea.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+  </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="PICS.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>pushButton_2</sender>

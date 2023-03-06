@@ -5,5 +5,21 @@
         <file>love-hand-drawn-heart-symbol-outline.png</file>
         <file>heart.png</file>
         <file>2293866.png</file>
+        <file>left-arrow.png</file>
+        <file>right-arrow.png</file>
+        <file>FONTS/SquadaOne-Regular.ttf</file>
+        <file>icons2/align-left.png</file>
+        <file>icons2/down-arrow.png</file>
+        <file>icons2/file.png</file>
+        <file>icons2/highlighter.png</file>
+        <file>icons2/hot-tea (1).png</file>
+        <file>icons2/image-gallery.png</file>
+        <file>icons2/loading.png</file>
+        <file>icons2/pen-tool.png</file>
+        <file>icons2/profile-user.png</file>
+        <file>icons2/secure-folder.png</file>
+        <file>icons2/signature.png</file>
+        <file>icons2/tea.png</file>
+        <file>icons2/text-font.png</file>
     </qresource>
 </RCC>
